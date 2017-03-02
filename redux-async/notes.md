@@ -1,6 +1,8 @@
 Generators
 ==========
 
+https://github.com/freddyrangel/async-in-redux-workshop
+
 * Generators can be async, woo!
 * if you yield a generator, add star (*)
 

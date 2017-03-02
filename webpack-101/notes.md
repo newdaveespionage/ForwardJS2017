@@ -1,6 +1,8 @@
 Webpack
 -------
 
+https://github.com/freddyrangel/webpack-101
+
 Why webpack?
 ============
 
