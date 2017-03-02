@@ -1,9 +1,9 @@
-# ForwardJS2017
+# ForwardJS 2017
 Notes and links from ForwardJS 2017 in San Francisco
 
 Each session is captured in a separate directory named for the talk or full day session
 
-Full Day Sessions: 
+Full Day Sessions:
 
 *   Webpack 101
 *   Redux Async
