@@ -1,15 +1,12 @@
-Opening Panel (Analytics, Automation, and Intelligent Agents)
--------------------------------------------------------------
+# Opening Panel (Analytics, Automation, and Intelligent Agents)
 
-APIs and Marketing
-==================
+## APIs and Marketing
 
   * Balance of human and automation is still somewhat needed
   * Ability to handle large volumes of valid data (and reduce duplicated data)
   * Ability to act on that data in the speed of a page load (or less)
 
-Intelligent Agents and their ability to see through the noise
-=============================================================
+## Intelligent Agents and their ability to see through the noise
 
   * Need for companies interests to represent the customer
   * Filter the firehose of information
@@ -19,8 +16,7 @@ Intelligent Agents and their ability to see through the noise
   * Hololens + facial recognition + emotional recognition = automated intellect?
   * Gatekeepers/Agents and security around the freedom of information (ask before opening the gates)
 
-Humans and computers
-====================
+## Humans and computers
 
   * bots against bots for security concerns?
   * ettiquite (don't tag some people, leave things anonymous in some interfaces)
@@ -37,8 +33,7 @@ Humans and computers
   * The decision tree conundrum: over-encapsulation and over-simplification of many things when ultimately one action is the desired outcome
   * Clippy for the helpdesk?
 
-What is the most comment analytical task you do today that you would like to solve tomorrow
-===========================================================================================
+## What is the most comment analytical task you do today that you would like to solve tomorrow
 
   * Automation of basic scientific principles
   * The common questions inside a workspace (HR/IT Automation)

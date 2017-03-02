@@ -1,13 +1,13 @@
-Generators
-==========
+# Redux Async
 
 https://github.com/freddyrangel/async-in-redux-workshop
+
+## Generators
 
 * Generators can be async, woo!
 * if you yield a generator, add star (*)
 
-Redux-Saga
-==========
+## Redux-Saga
 
 * Implementation of Saga Pattern, instead of thunks, all side effect (async) logic in one place
 * Failure management pattern
@@ -17,8 +17,7 @@ Redux-Saga
 * redux-saga has it's own control flow
 * root saga gathers all effects
 
-Redux-Saga Functions
-====================
+## Redux-Saga Functions
 
 * call
   * accepts a function, and returns value of function in object (an effect)

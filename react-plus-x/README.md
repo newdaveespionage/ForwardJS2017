@@ -1,27 +1,23 @@
-React Plus X
-------------
+# React Plus X
 
 Mars, senior software engineer at Netflix
 @marsjosephine
 
-Why build a UI component library?
-=================================
+## Why build a UI component library?
 
 * breaking out of the monolith, new repos, different frameworks & build systems
 * brand & UX consistency across multiple teams and codebases
 
 A UI component consists of one or more element that a user uses
 
-Why React?
-==========
+## Why React?
 
 * Less files per component
 * markup is a function of state and props - ui components can be independent of data source, but still have full control over interactions
 * easily ported into different frameworks
   * for instance: use a react component in a backbone view
 
-What makes a UI component reuseable
-===================================
+## What makes a UI component reuseable
 
 * self-sufficient
   * do one thing
@@ -54,4 +50,4 @@ What makes a UI component reuseable
     * namespacing
     * explicitly document dependencies (what needs to be installed to be run)
 
-resulting in driving adoption
+### resulting in driving adoption

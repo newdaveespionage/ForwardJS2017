@@ -1,47 +1,39 @@
-Webpack It's Not Magic
-----------------------
+# Webpack It's Not Magic
 
 @naomicodes
 [slides](https://naomijacobs.github.io/WebpackTalk)
 
-How I learned it
-================
+## How I learned it
 
 * tried using it on a few side projects
 * Mavenlink (company where she works) started using it
 
-Why this talk?
-==============
+## Why this talk?
 
 * We are happier when we demystify our tools
 
-What is Webpack
-===============
+## What is Webpack
 
 * takes stuff that is nice for you to write and makes it into stuff that is nice for your browser to read
 
-What problems does it solve
-===========================
+## What problems does it solve
 
 * namespacing
 * files need to be changed before they can go to the client
 * send code to the browser efficiently
 
-Note
-====
+### Note
 
 * this is not the first solution
 * other solutions require rolling completely from scratch or piecing together on a rather intense level
 
-How I thought it worked
-=======================
+## How I thought it worked
 
 * checked dependencies
 * cranked out one optimized file
 * This is not how it works
 
-How does it work
-================
+## How does it work
 
 * takes path to entry file (starting file)
 * find dependencies
@@ -49,8 +41,7 @@ How does it work
 * implement modules (part of loader system)
 * creating final asset
 
-Finding dependent files
-=======================
+## Finding dependent files
 
 * tracks dependencies in array
 * entry file is first entry
@@ -59,8 +50,7 @@ Finding dependent files
 * if it leads to a valid path, add to array
 * recurse
 
-Apply loaders
-=============
+## Apply loaders
 
 * a function that takes source, makes changes, returns code
 * they can be added using npm
@@ -69,22 +59,19 @@ Apply loaders
 * examples: transpile, uglify, minify, polyfill
 * module system
 
-CommonJS
-========
+## CommonJS
 
 * system of writing js that allows files to declare dependencies on each other by importing and exporting modules from those files
 * import modules by requiring them require('module')
 * export modules by assigning them to module.exports = blah
 * standard, not a library
 
-Module system
-=============
+## Module system
 
 * wrap each file in a function
 * replace each require instance to webpackRequire(index of file array where require target is located)
 
-Create Final asset
-==================
+## Create Final asset
 
 * start with a function that accepts an array of modules
 * wrap it in iife (immediately invoked function expression)
@@ -97,8 +84,7 @@ Create Final asset
 * return module.exports
 * ultimately, kick off by invoking webpackRequire(0)
 
-How did this solve our problems?
-================================
+## How did this solve our problems?
 
 * We have a single entry for the page
 * all dependencies managed for us

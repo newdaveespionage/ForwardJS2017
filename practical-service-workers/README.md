@@ -1,5 +1,4 @@
-Practical Service Workers
--------------------------
+# Practical Service Workers
 
 @jemyoung @ netflix
 front end happy hour
@@ -9,15 +8,13 @@ front end happy hour
 * big fan of fast and furious
 
 
-Building the web
-================
+## Building the web
 
 * the web is weird
 * we can build something amazing with the building blocks of coding
 * service worker is a building block
 
-Service worker
-==============
+## Service worker
 
 * event-based proxy
 * twitter facebook linkedin use them
@@ -41,16 +38,14 @@ Service worker
   * sync (not yet ready)
   * push (not yet ready)
 
-Web workers
-===========
+## Web workers
 
 * Why? Because Javascript has events
 * The event loop (only happens in UI thread)
 * paints fail during expensive computations if they're on the UI thread
 * runs in separate thread, so does not interrupt the UI thread
 
-Lifecycle and events
-====================
+## Lifecycle and events
 
 * register it if it's in window.navigator
 * event.waitUntil(Promise) - keeps service works alive
@@ -62,8 +57,7 @@ Lifecycle and events
 * using promises, return either response, or fetch
 * fetch, then clone response, direct access breaks
 
-Practical Examples
-==================
+## Practical Examples
 
 * cloud to butts
 * er... cats to dogs
@@ -76,8 +70,7 @@ Practical Examples
   * run it through transpiler and return
   * else just return fetch
 
-Unsolicited Advice
-==================
+## Unsolicited Advice
 
 * don't cache the service worker
 * leverage devtools
