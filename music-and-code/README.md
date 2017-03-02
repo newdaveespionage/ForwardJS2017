@@ -1,7 +1,7 @@
 # Music and Code by Catherine Meyers
 
 @ccmeyers324 from Mavenlink
-bit.ly/music-code
+[slides](http://bit.ly/music-code)
 
 ## Overview
 
